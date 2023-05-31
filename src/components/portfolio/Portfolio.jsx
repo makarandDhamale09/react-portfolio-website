@@ -10,21 +10,21 @@ const Portfolio = () => {
       id: 1,
       image: IMG1,
       title: "Employee Service Microservices",
-      github: "https://github.com",
+      github: "https://github.com/makarandDhamale09/Microservices",
       demo: "#",
     },
     {
       id: 2,
       image: IMG2,
       title: "Employee Management Service",
-      github: "https://github.com",
+      github: "https://github.com/makarandDhamale09/FullStack",
       demo: "#",
     },
     {
       id: 3,
       image: IMG3,
       title: "Project Reactor - SpringBoot WebFlux",
-      github: "https://github.com",
+      github: "https://github.com/makarandDhamale09/SpringBoot-WebFlux",
       demo: "#",
     },
   ];
@@ -41,12 +41,12 @@ const Portfolio = () => {
               </div>
               <h3> {title}</h3>
               <div className="portfolio_item-cta">
-                <a href={github} class="btn" target="'_blank">
+                <a href={github} class="btn btn-primary" target="'_blank">
                   Github
                 </a>
-                <a href={demo} class="btn btn-primary" target="_blank">
+                {/* <a href={demo} class="btn btn-primary" target="_blank">
                   Live Demo
-                </a>
+                </a> */}
               </div>
             </article>
           );

@@ -1,7 +1,7 @@
 import React from "react";
 import "./about.css";
 import Me from "../../assets/me.jpeg";
-import { FaAward } from "react-icons/fa";
+import { FaAward, FaIndustry } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
 
@@ -24,14 +24,14 @@ const About = () => {
               <small>8+ Years Working</small>
             </article>
             <article className="about_card">
-              <FiUsers className="about_icon" />
-              <h5>Clients</h5>
-              <small>200+ Worldwide</small>
+              <FaIndustry className="about_icon" />
+              <h5>Domain</h5>
+              <small>Banking & Finance</small>
             </article>
             <article className="about_card">
               <VscFolderLibrary className="about_icon" />
               <h5>Projects</h5>
-              <small>80+ Completed</small>
+              <small>6 Professional and multiple Personal</small>
             </article>
           </div>
           <p>
